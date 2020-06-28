@@ -1,6 +1,6 @@
-{
+var json='{
   "firstName": "Yaakov",
   "lastName": "Chaikin",
   "likesChineseFood": true,
   "numberOfDisplays": 2 
-}
+}'
