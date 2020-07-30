@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",
 					var name=request.responseText;
 
 					document.querySelector("#content").innerHTML
-					= "<h2>Hello"+name+"!";
+					= "<h2>Hello"+name+"!</h2>";
 
 					console.log(name);
 				}
