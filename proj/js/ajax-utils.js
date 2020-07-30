@@ -9,7 +9,7 @@
 		}
 
 		else if (window.ActiveXObject) {
-			return(new ActiveXObject("Microsoft.XMLHttp"));
+			return(new ActiveXObject("Microsoft.XMLHTTP"));
 		}
 
 		else{
@@ -28,7 +28,7 @@
 		request.onreadystatechange=function () {
 			handleResponse(request,responseHandler);
 		};
-		request.open("GET",requestUrl);
+		request.open("GET",requestUrl,true);
 		request.send(null); //for POST only
 	};
 

@@ -11,10 +11,8 @@ document.addEventListener("DOMContentLoaded",
 					= "<h2>Hello"+name+"!</h2>";
 
 					console.log(name);
-				}
-				);
+				});
 		});
 	}
 
-
-	);
+);
